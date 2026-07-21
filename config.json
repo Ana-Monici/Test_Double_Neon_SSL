@@ -1,0 +1,36 @@
+{
+    "network" : {
+        "gui_api_addr": "127.0.0.1",
+        "gui_api_port": 9999
+    },
+    "match" : {
+        "team_side": "left",
+        "team_color": "blue",
+        "coach_name": "TEST",
+        "category": "6v6",
+        "robot_ids": [
+            5,
+            7,
+            8,
+            0,
+            1,
+            2
+        ],
+        "opposite_ids": [
+            5,
+            7,
+            8,
+            9,
+            6,
+            4
+        ],
+        "simulate_game_status": true,
+        "status_change_interval": 300,
+        "game_status_sequence": [
+            "GAME_ON",
+            "HALT",
+            "STOP"
+        ]
+    },
+    "gui_api": true
+}
